@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         mHudView = (TableLayout) findViewById(R.id.hud_view);
 
         IjkMediaPlayer.loadLibrariesOnce(null);
-//        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
+        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
 //        mVideoView.setVideoPath("https://img-9gag-fun.9cache.com/photo/aB8B2YA_460sv.mp4");
 //        mMediaController = new AndroidMediaController(this, false);
 //        mMediaController.setSupportActionBar(actionBar);
         mVideoView.setHudView(mHudView);
-        mVideoView.setVideoURI(Uri.parse("https://www.youtube.com/embed/-qkzA377Q54"));
+        mVideoView.setVideoURI(Uri.parse("https://www.youtube.com/embed/gOnetIB34Kw"));
         mVideoView.start();
     }
 
