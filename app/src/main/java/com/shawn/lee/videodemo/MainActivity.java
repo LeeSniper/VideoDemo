@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //        mMediaController = new AndroidMediaController(this, false);
 //        mMediaController.setSupportActionBar(actionBar);
         mVideoView.setHudView(mHudView);
-        mVideoView.setVideoURI(Uri.parse("https://www.youtube.com/embed/gOnetIB34Kw"));
+        mVideoView.setVideoURI(Uri.parse("https://www.youtube.com/embed/JTmW-46K9Hk"));
         mVideoView.start();
     }
 
